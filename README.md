@@ -2,7 +2,17 @@
 
 Example Create By [Ahmad Sandid](https://github.com/ahmad1702). Components by [Shadcn](https://ui.shadcn.com/). Uses [Create-React-App](https://create-react-app.dev/).
 
-## Installation Steps
+## How to run 
+1. Install Dependencies
+   ```bash
+   npm i
+   ```
+2. Run Project
+   ```bash
+   npm run dev
+   ```
+
+## How I did it (if you wanted to do it from scratch)
 
 1. Initialize the _create-react-app_ project with typescript: `npx create-react-app shadcn-ui-cra-example --template typescript`
    **_Disclaimer:_** The Shadcn/ui cli initialization command was assumes you are creating a Next.js application. So `npx shadcn-ui init` cannot be used with a create-react-app. (_But, you **can** use the add commands such as_ `npx shadcn-ui add button`)
