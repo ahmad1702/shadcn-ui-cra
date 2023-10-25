@@ -2,6 +2,8 @@
 
 Example Created By [Ahmad Sandid](https://github.com/ahmad1702). Components by [Shadcn](https://ui.shadcn.com/). Uses [Create-React-App](https://create-react-app.dev/).
 
+<img src="https://i.ibb.co/KGNJ2g8/Screenshot-2023-10-24-at-9-26-44-PM.png" alt="Starter Image"/>
+
 ## How to run
 
 1. Install Dependencies
