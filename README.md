@@ -1,13 +1,21 @@
 # Shadcn UI Create React App
 
-Example Create By [Ahmad Sandid](https://github.com/ahmad1702). Components by [Shadcn](https://ui.shadcn.com/). Uses [Create-React-App](https://create-react-app.dev/).
+Example Created By [Ahmad Sandid](https://github.com/ahmad1702). Components by [Shadcn](https://ui.shadcn.com/). Uses [Create-React-App](https://create-react-app.dev/).
 
-## How to run 
+## How to run
+
 1. Install Dependencies
    ```bash
    npm i
    ```
 2. Run Project
+
+   ```bash
+   npm run start
+   ```
+
+   or
+
    ```bash
    npm run dev
    ```
@@ -15,7 +23,9 @@ Example Create By [Ahmad Sandid](https://github.com/ahmad1702). Components by [S
 ## How I did it (if you wanted to do it from scratch)
 
 1. Initialize the _create-react-app_ project with typescript: `npx create-react-app shadcn-ui-cra-example --template typescript`
-   **_Disclaimer:_** The Shadcn/ui cli initialization command was assumes you are creating a Next.js application. So `npx shadcn-ui init` cannot be used with a create-react-app. (_But, you **can** use the add commands such as_ `npx shadcn-ui add button`)
+
+   **_Disclaimer:_** The Shadcn/ui cli initialization command now supports create-react-app. It's already set up and configured. If you are to run it again, make sure to say no when asked "Are you using React Server Components?"
+
 2. Install the following dependencies:
    ```
    	npm install tailwindcss-animate class-variance-authority clsx tailwind-merge lucide-react
